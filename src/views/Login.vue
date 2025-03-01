@@ -3,10 +3,10 @@
     <NavBar />
     <div class="form">
       <div class="form-header">
-        <div class="title">Log In</div>
+        <div class="title">Connexion</div>
       </div>
       <div v-show="error_message" class="error-message-show">
-        • Invalid username and password.
+        • Mot de passe ou Numéro de téléphone incorrect!.
       </div>
       <div class="form-body">
         <ul>
@@ -39,10 +39,10 @@
             ></i>
           </li>
           <li>
-            <button @click="showInput()" type="">LOG IN</button>
+            <button @click="showInput()" type="">Se connecter</button>
           </li>
           <div class="password-forgot">
-            <a href="#">Forgot Password?</a>
+            <a href="#">Mot de passe oubliè?</a>
           </div>
           <li>
             <hr />
@@ -77,9 +77,9 @@
             </div>
           </li>
           <li>
-            New User?
+            Vous n'avez pas de compte?
             <router-link :to="'/register'">
-              <b>Sign Up</b>
+              <b>Incrivez-vous</b>
             </router-link>
           </li>
         </ul>

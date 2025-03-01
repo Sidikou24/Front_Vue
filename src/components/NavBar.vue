@@ -2,16 +2,14 @@
   <nav>
     <div class="title">
       <router-link :to="'/'">
-        <h1 style="color: black">Nikke</h1>
+        <h1 style="color: black">Kassouwa Ta</h1>
       </router-link>
     </div>
     <div class="actions">
       <ul>
-        <li><a href="#">Men</a></li>
-        <li><a href="#">Women</a></li>
-        <li><a href="#">Kids</a></li>
-        <li><a href="#">Sale</a></li>
-        <li><a href="#">SNKRS</a></li>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">Page 1</a></li>
+        <li><a href="#">Page 2</a></li>
         <li><a class="vl">|</a></li>
         <router-link :to="'/login'">
           <n-button
@@ -19,7 +17,7 @@
             size="medium"
             id="loginBtn"
             style="margin: 10px"
-            >Log In
+            >Se connecter
           </n-button>
         </router-link>
         <router-link :to="'/register'">
@@ -30,7 +28,7 @@
             id="signupBtn"
             style="margin: 10px; color: #253759"
             ghost
-            >Sign Up
+            >S'inscrire
           </n-button>
         </router-link>
       </ul>

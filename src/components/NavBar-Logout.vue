@@ -2,7 +2,7 @@
   <nav>
     <div class="title">
       <router-link :to="'/'">
-        <h1 style="color: black">Nikke</h1>
+        <h1 style="color: black">Kassouwa Ta</h1>
       </router-link>
     </div>
     <div class="actions">

@@ -5,63 +5,61 @@
       <img src="../assets/landing_page/banner.jpg" alt="banner" />
     </div>
     <div class="title">
-      <div>Nikke App-Only Member Early Access: Nike Air Zoom Pegasus 39</div>
-      <div class="title1">IN PEG WE TRUST</div>
+      <div>Premier pas sur</div>
+      <div class="title1">Kassouwa Ta Niger ?</div>
       <div>
-        Introducing the new Nikke Air Zoom Pegasus 39, featuring the comfort and
-        consistency from the shoe runners know and love, plus our latest
-        innovations designed to take your next run to bold new heights.
+        Vous êtes un commerçant nouvellement venu, vous n'avez pas encore de compte ? Cliquez sur le bouton 
+        "S'inscrire" en haut à droite de la page. Remplissez vos informations et créez rapidement vote boutique en ligne.
+        Si vous avez dèjà un compte, cliquez sur le button "Se connecter" et gérez votre boutique.
+        Vous n'êtes pas commerçant? Vous êtes aussi à votre place vous pouvez effectuer une visite du marché en ligne et effectuer vos achats en toute quiètude.
       </div>
-      <button>Shop</button>
+      <button>Voir</button>
     </div>
-    <div class="title-main">Trending</div>
+    <div class="title-main">Tendance</div>
     <div class="content-double">
       <div>
         <img src="../assets/landing_page/trend1.png" alt="trend1" />
-        <button class="button-left">Shop</button>
+        <button class="button-left">Voir</button>
       </div>
       <div>
         <img src="../assets/landing_page/trend2.png" alt="trend2" />
-        <button class="button-left">Shop</button>
+        <button class="button-left">Voir</button>
       </div>
     </div>
     <div class="title">
-      <div>Move to Zero</div>
-      <div class="title1">MADE WITH SUSTAINABILITY IN MIND</div>
+      <div>Aperçu des produits les mieux notés par les clients.</div>
+      <div class="title1">CONÇU DANS UN ESPRIT DE DURABILITÉ</div>
       <div>
-        Introducing the new Nikke Air Zoom Pegasus 39, featuring the comfort and
-        consistency from the shoe runners know and love, plus our latest
-        innovations designed to take your next run to bold new heights.
+      Retrouvez ici un bref aperçu des produits es plus aimés au prés des clients. Vous pourriez être intéressés:
       </div>
-      <button>Shop</button>
     </div>
-    <div class="favourites-title">Favourites on our Move to Zero</div>
+    <div class="favourites-title">Favoris</div>
     <div class="favourites">
       <div class="favourites-item">
         <img src="../assets/landing_page/favourite2.png" alt="favourite2" />
         <div class="label">
           <div class="name">Nike Air Force 1 '07 Next Nature</div>
-          <div class="price">₱5,295</div>
+          <div class="price">25.000 fcfa</div>
           <br />
-          <div class="tag">Women's Shoes</div>
+          <div class="tag">Chaussures pour femme</div>
         </div>
       </div>
       <div class="favourites-item">
         <img src="../assets/landing_page/favourite1.png" alt="favourite1" />
         <div class="label">
           <div class="name">Nike Air Force 1 Crater Next Nature</div>
-          <div class="price">₱4,095</div>
+          <div class="price">12.000fcfa</div>
           <br />
-          <div class="tag">Older Kid's Shoes</div>
+          <div class="tag">Chaussures pour adolescent</div>
         </div>
       </div>
       <div class="favourites-item">
         <img src="../assets/landing_page/favourite3.png" alt="favourite3" />
         <div class="label">
           <div class="name">Nike Air Force 1 '07 LX Next Nature</div>
-          <div class="price">₱6,195</div>
+          <div class="price">18.000fcfa</div>
           <br />
-          <div class="tag">Men's Shoes</div>
+          <div class="tag">Chaussures pour homme</div>
         </div>
       </div>
       <div class="favourites-item">
@@ -84,22 +82,22 @@
       </div>
     </div>
     <div class="title">
-      <div>'Infrared'</div>
+      <!--<div>'Infrared'</div>-->
       <div class="title1">AIR JORDAN XXXVI</div>
       <div></div>
-      <button>Shop</button>
+      <button>Voir</button>
     </div>
-    <div class="title-main">Don't Miss</div>
+    <div class="title-main">Ne pas rater des promotions!</div>
     <div>
       <img src="../assets/landing_page/dont_miss.jpg" alt="dont_miss" />
     </div>
-    <div class="title">
+    <!--<div class="title">
       <div>Running Gear for Your Race</div>
       <div class="title1">MAKE THOSE MILES COUNT</div>
       <div></div>
-      <button>Shop</button>
-    </div>
-    <div class="title-main">More Nike</div>
+      <button>Voir</button>
+    </div>-->
+    <!--<div class="title-main">More Nike</div>
     <div class="content-triple">
       <div>
         <img src="../assets/landing_page/mens.png" alt="men" />
@@ -113,7 +111,7 @@
         <img src="../assets/landing_page/kids.png" alt="kids" />
         <button class="button-left">Kid's</button>
       </div>
-    </div>
+    </div>-->
   </div>
   <Footer />
 </template>
